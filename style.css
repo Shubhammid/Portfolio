@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Manrope;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  position: relative;
+}
+
+nav {
+  height: 8%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 0.4px solid #7773733a;
+  padding: 12px 30px;
+}
+
+nav h1 {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+nav button {
+  padding: 11px 15px;
+  border-radius: 11px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0.5px solid #fff;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+}
+
+nav button i {
+  border: 2px solid #fff;
+  background-color: #e3f29e;
+  color: #000;
+  border-radius: 50%;
+}
+
+.center {
+  height: 92%;
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  position: absolute;
+}
+
+.center-part1 {
+  height: 46%;
+  width: 100%;
+  padding: 60px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.center-part1 h1 {
+  font-weight: 800;
+  font-size: 80px;
+  color: #b1b1b1;
+}
+
+.center-part1 h4 {
+  font-weight: 400;
+  font-size: 60px;
+  color: #e3f29e;
+}
+
+.center-part2 {
+  height: 46%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-part2 button {
+  border: none;
+  padding: 20px 40px;
+  font-size: 38px;
+  font-weight: 800;
+  position: relative;
+  color: #000;
+  background-color: #e3f29e;
+  text-transform: uppercase;
+  border: 3px solid #ffffff;
+  cursor: pointer;
+  transition: all 0.7s;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.section2 h1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 90px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #e3f29e;
+}
+
+.para {
+  width: 100%;
+  padding: 40px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4%;
+}
+
+.para p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #b1b1b1;
+}
+
+.section2 button {
+  border: none;
+  padding: 20px 40px;
+  font-size: 38px;
+  font-weight: 800;
+  position: relative;
+  color: #000;
+  background-color: #e3f29e;
+  text-transform: uppercase;
+  border: 3px solid #ffffff;
+  cursor: pointer;
+  transition: all 0.7s;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.section3 h1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 90px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #e3f29e;
+}
+
+.section3 .part2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section3 .part2 {
+  height: 60%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+}
+
+.section3 .part2 .box1 {
+  background-color: #343533;
+  width: 250px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.section3 .part2 .box1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.section4 {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 600px;
+  margin: 50px;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  color: #ddd;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #444;
+  background-color: #333;
+  color: white;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.container button {
+  color: #000;
+  background-color: #e3f29e;
+  padding: 25px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 10px;
+}
